@@ -1,0 +1,31 @@
+<html>
+<head><title>註冊</title></head>
+<body>
+    <form method="POST" action="regist.php"><!--post比getx更安全。但有些情況需要用到get-->
+        姓名:<input type="text" id="name"><br>
+         密碼:<input type="password" id="pwd"><br>  
+         <input type="radio" name="sex" value="M">男
+         <input type="radio" name="sex" value="F"checked>女<!--checked預設-->
+         <input type="radio" name="sex" value="S">中性
+         興趣:<select name=county>
+         <input type="checkbox" name="interest" value="TV">電視
+         <input type="checkbox" name="interest" value="YT"checked>YOUTOBE
+         <input type="checkbox" name="interest" value="bike">騎車<br>
+         居住地:<option value="桃園英文">桃園</option>
+         <option value="新竹英文 selected">新竹</option><!--selected預設-->
+         <option value="高雄英文">高雄</option>
+        </select><br>
+        自傳:<textarea name="autobioaghy">
+
+        </textarea>
+        <p></p>
+
+         <input type="submit" id="註冊">
+         <input type="reset" id="清除">
+    </form>
+</body>
+
+
+
+
+</html>
